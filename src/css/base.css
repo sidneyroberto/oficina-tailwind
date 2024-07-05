@@ -1,0 +1,20 @@
+@layer base {
+  @font-face {
+    font-family: 'regular';
+    src: url(../fonts/NotoSansJP-Medium.ttf);
+  }
+
+  @font-face {
+    font-family: 'light';
+    src: url(../fonts/NotoSansJP-Light.ttf);
+  }
+
+  @font-face {
+    font-family: 'bold';
+    src: url(../fonts/NotoSansJP-ExtraBold.ttf);
+  }
+
+  body {
+    margin: 0;
+  }
+}

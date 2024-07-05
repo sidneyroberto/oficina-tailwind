@@ -1,0 +1,13 @@
+{
+  "name": "oficina-tailwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch"
+  },
+  "devDependencies": {
+    "postcss-import": "^16.1.0",
+    "tailwindcss": "^3.4.4"
+  }
+}
